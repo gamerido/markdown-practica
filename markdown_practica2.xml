@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE markdown [
+<!ELEMENT markdown (bloque1,bloque2,bloque3,bloque4,bloque5,bloque6,
+                    bloque7,bloque8)>
+<!ELEMENT bloque1 (titulo,logo,descripcion)>
+<!ELEMENT bloque2 (titulo,descripcion)>
+<!ELEMENT bloque3 (titulo,descripcion)>
+<!ELEMENT bloque4 (titulo,descripcion)>
+<!ELEMENT bloque5 (titulo,descripcion)>
+<!ELEMENT bloque6 (titulo,descripcion)>
+<!ELEMENT bloque7 (titulo,descripcion,enlace)>
+<!ELEMENT bloque8 (titulo,descripcion,enlace)>
+<!ELEMENT logo (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT enlace (#PCDATA)>
+]>
+<markdown>
+    <bloque1>
+        <titulo>#  **"R" Net Station**</titulo>
+        <logo>![logo RTieb](https://www.logolynx.com/images/logolynx/9f/9f2dc0b916ac644cf5df46d2434e3216.jpeg)</logo>
+        <descripcion>*El proyecto consiste en hacer la segunda práctica de XML Markdown.*</descripcion>
+    </bloque1>
+    <bloque2>
+        <titulo>## **COMENZAMOS**</titulo>
+        <descripcion>Una vez tenga los archivos en su disposición,
+            puede comenzar por abrir el archivo de texto llamado *"Readme"* para conocer más sobre esta práctica.</descripcion>
+    </bloque2>
+    <bloque3>
+        <titulo>###  **REQUISITOS**</titulo>
+        <descripcion>Para poder ejecutar y visualizar todos los archivos de la práctica se requiere:
+
+            * Un sistema operativo Windows 7 , similar o superior.
+            * Software para la navegación web
+            * Software (IDE) Solo si quiere modificar algo.</descripcion>
+    </bloque3>
+    <bloque4>
+        <titulo>###  **INSTALACIÓN**</titulo>
+        <descripcion>Para esta práctica no se requiere la instalación de ningun software adicional salvo los requisitos mínimos explicados anteriormente.
+            Para la instalación del IDE, seguir los pasos recomendados por el fabricante. </descripcion>
+    </bloque4>
+    <bloque5>
+        <titulo>###  **GUÍA**</titulo>
+        <descripcion>Le recomendamos el siguiente orden:
+
+            1. Leer Readme
+            2. Abrir archivo markdow_practica.md
+            3. Abrir archivo markdown_practica2.xml
+            4. Abrir archivo de video
+        </descripcion>
+    </bloque5>
+    <bloque6>
+        <titulo>### **CREADO CON**</titulo>
+        <descripcion>Las herramientas que he utilizado en esta práctica han sido:
+            * Visual Studio Code
+            * Google Chrome
+            * Apache NetBeans IDE</descripcion>
+    </bloque6>
+    <bloque7>
+        <titulo>### **MÁS INFORMACIÓN**</titulo>
+        <descripcion>Puedes consultar diferente información sobre Markdown en el siguiente enlace:</descripcion>
+        <enlace>[WIKIPEDIA MARKDOWN](https://es.wikipedia.org/wiki/Markdown "Markdown")</enlace>
+    </bloque7>
+    <bloque8>
+        <titulo>### **AUTOR**</titulo>
+        <descripcion>* **Ridouan Abdellah Tieb** - *Práctica 2 XML Markdown* </descripcion>
+        <enlace>* [gamerido](https://github.com/gamerido)</enlace>
+    </bloque8>
+
+
+</markdown>
